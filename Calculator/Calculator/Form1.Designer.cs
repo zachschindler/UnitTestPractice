@@ -105,6 +105,7 @@
             this.additionButton.TabIndex = 8;
             this.additionButton.Text = "+";
             this.additionButton.UseVisualStyleBackColor = true;
+            this.additionButton.Click += new System.EventHandler(this.additionButton_Click);
             // 
             // Form1
             // 
