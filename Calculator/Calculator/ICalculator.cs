@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    interface ICalculator
+    public interface ICalculator
     {
+        double Addition(double val1, double val2);
+
+        double Subtraction(double val1, double val2);
+
+        double Multiplication(double val1, double val2);
+
+        double Division(double val1, double val2);
     }
 }
