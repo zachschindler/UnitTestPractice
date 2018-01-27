@@ -29,9 +29,9 @@ namespace Calculator
             solutionLabel.Text = calc.sum.ToString();
             value1TextBox.Text = "";
             value2TextBox.Text = "";
-        }
+        }      
 
-        private void subtractionButton_Click(object sender, EventArgs e)
+        private void subtractionButton_Click_1(object sender, EventArgs e)
         {
             double val1 = Convert.ToDouble(value1TextBox.Text);
             double val2 = Convert.ToDouble(value2TextBox.Text);
@@ -43,19 +43,19 @@ namespace Calculator
             value2TextBox.Text = "";
         }
 
-        private void multiplyButton_Click(object sender, EventArgs e)
+        private void multiplyButton_Click_1(object sender, EventArgs e)
         {
-            double val1 = Convert.ToDouble(value1TextBox.Text);
-            double val2 = Convert.ToDouble(value2TextBox.Text);
+                double val1 = Convert.ToDouble(value1TextBox.Text);
+                double val2 = Convert.ToDouble(value2TextBox.Text);
 
-            calc.Multiplication(val1, val2);
+                calc.Multiplication(val1, val2);
 
-            solutionLabel.Text = calc.product.ToString();
-            value1TextBox.Text = "";
-            value2TextBox.Text = "";
+                solutionLabel.Text = calc.product.ToString();
+                value1TextBox.Text = "";
+                value2TextBox.Text = "";
         }
 
-        private void divisionButton_Click(object sender, EventArgs e)
+        private void divisionButton_Click_1(object sender, EventArgs e)
         {
             double val1 = Convert.ToDouble(value1TextBox.Text);
             double val2 = Convert.ToDouble(value2TextBox.Text);
