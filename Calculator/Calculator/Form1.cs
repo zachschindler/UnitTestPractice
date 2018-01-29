@@ -17,7 +17,7 @@ namespace Calculator
             InitializeComponent();
         }
 
-        Calculator calc = new Calculator();
+        CalculatorClass calc = new CalculatorClass();
 
         private void additionButton_Click(object sender, EventArgs e)
         {

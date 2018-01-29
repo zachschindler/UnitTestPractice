@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    public class Calculator : ICalculator
+    public class CalculatorClass : ICalculator
     {
         public double sum;
         public double difference;
